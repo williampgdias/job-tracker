@@ -111,9 +111,15 @@ if (!$vaga) {
                         Rejeitado</option>
                 </select>
 
-                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="display: flex; gap: 10px; margin-top: 20px; margin-bottom: 10px;">
                     <button type="submit" class="btn btn-primary">Salvar Alterações</button>
                 </div>
+
+                <a href="excluir.php?id=<?php echo $id; ?>" class="btn"
+                    style="background: #e74c3c; color: white; width: 100%;"
+                    onclick="return confirm('Tem certeza que deseja apagar esta vaga?');">
+                    Excluir
+                </a>
 
                 <a href="index.php" class="link-voltar">Cancelar</a>
             </form>
