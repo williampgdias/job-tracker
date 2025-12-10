@@ -32,11 +32,11 @@ try {
     <div class="container">
         <div class="header">
             <h1>🎯 Minhas Candidaturas</h1>
-            <a href="cadastrar.php" class="btn-nova">+ Nova Vaga</a>
+            <a href="cadastrar.php" class="btn btn-success">+ Nova Vaga</a>
         </div>
 
         <?php foreach ($vagas as $vaga): ?>
-        <div class="card status-<?php echo $vaga['status']; ?>">
+        <div class="card card-vaga status-<?php echo $vaga['status']; ?>">
             <div style="display:flex; justify-content:space-between;">
                 <div>
                     <div class="vaga-titulo"><?php echo htmlspecialchars($vaga['titulo']); ?></div>
