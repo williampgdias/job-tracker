@@ -6,13 +6,13 @@ Um sistema de gestão de candidaturas desenvolvido em **PHP 8** puro, focado em 
 
 ## 📸 Screenshots
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
   <img src="prints/app01.png" alt="Dashboard de Vagas" width="48%" />
+  <img src="prints/app06.png" alt="Formulário de Cadastro" width="48%" />
   <img src="prints/app02.png" alt="Formulário de Cadastro" width="48%" />
   <img src="prints/app03.png" alt="Formulário de Cadastro" width="48%" />
   <img src="prints/app04.png" alt="Formulário de Cadastro" width="48%" />
   <img src="prints/app05.png" alt="Formulário de Cadastro" width="48%" />
-  <img src="prints/app06.png" alt="Formulário de Cadastro" width="48%" />
 </div>
 
 ## 🚀 Funcionalidades Técnicas
