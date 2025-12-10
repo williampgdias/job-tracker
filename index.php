@@ -55,8 +55,13 @@ try {
             <div class="detalhes">
                 💰 Previsão: €<?php echo number_format((float)$vaga['salario_pretendido'], 2, ',', '.'); ?> <br>
                 <?php if (!empty($vaga['link_vaga'])): ?>
-                🔗 <a href="<?php echo $vaga['link_vaga']; ?>" target="_blank">Ver anúncio original</a>
+                🔗 <a href="<?php echo $vaga['link_vaga']; ?>" target="_blank" style="margin-right: 15px;">Anúncio</a>
                 <?php endif; ?>
+
+                <a href="editar.php?id=<?php echo $vaga['id']; ?>"
+                    style="color: #f39c12; font-weight: bold; text-decoration: none;">
+                    ✏️ Editar
+                </a>
             </div>
         </div>
         <?php endforeach; ?>

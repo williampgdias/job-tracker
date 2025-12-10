@@ -140,7 +140,14 @@ a {
 } /* Verde */
 .status-Rejeitado {
     border-left-color: #e74c3c;
+    opacity: 0.6;
+    background-color: #fceceb;
+    transition: opacity 0.3s;
 } /* Vermelho */
+
+.status-Rejeitado:hover {
+    opacity: 1; /* Se passar o mouse, ele "acende" de novo para ler */
+}
 
 /* Badge (Etiqueta de status) */
 .badge {
