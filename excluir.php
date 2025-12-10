@@ -9,7 +9,7 @@ if (!isset($_GET['id'])) {
 $id = $_GET['id'];
 
 try {
-    $stmt = $pdo->prepare("DELETE FROM vagas WHERE id =?");
+    $stmt = $pdo->prepare("DELETE FROM vagas WHERE id = ?");
     $stmt->execute([$id]);
 
     header('Location: index.php');
